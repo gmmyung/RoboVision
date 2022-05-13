@@ -39460,3 +39460,7 @@ wandb: Network error (ReadTimeout), entering retry loop.
 0.010918809100985527
 0.008299711160361767
 0.010080031119287014
+0.010865441523492336
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: Network error (ConnectionError), entering retry loop.
+wandb: Network error (ConnectionError), entering retry loop.

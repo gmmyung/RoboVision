@@ -42,3 +42,20 @@ config: {}
 2022-05-13 17:32:51,456 INFO    MainThread:41556 [wandb_init.py:_resume_backend():359] resuming backend
 2022-05-13 17:33:05,201 INFO    MainThread:41556 [wandb_init.py:_pause_backend():350] pausing backend
 2022-05-13 17:33:05,201 INFO    MainThread:41556 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-13 17:55:00,576 INFO    MainThread:41556 [wandb_init.py:_resume_backend():359] resuming backend
+2022-05-13 17:55:14,449 INFO    MainThread:41556 [wandb_init.py:_pause_backend():350] pausing backend
+2022-05-13 17:55:14,450 INFO    MainThread:41556 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-13 20:10:52,433 INFO    MainThread:41556 [wandb_init.py:_resume_backend():359] resuming backend
+2022-05-13 20:11:06,455 INFO    MainThread:41556 [wandb_init.py:_pause_backend():350] pausing backend
+2022-05-13 20:11:06,455 INFO    MainThread:41556 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-13 20:11:06,465 INFO    MainThread:41556 [wandb_init.py:_resume_backend():359] resuming backend
+2022-05-13 20:11:20,344 INFO    MainThread:41556 [wandb_init.py:_pause_backend():350] pausing backend
+2022-05-13 20:11:20,344 INFO    MainThread:41556 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-13 20:13:36,163 INFO    MainThread:41556 [wandb_init.py:_resume_backend():359] resuming backend
+2022-05-13 20:13:50,089 INFO    MainThread:41556 [wandb_init.py:_pause_backend():350] pausing backend
+2022-05-13 20:13:50,089 INFO    MainThread:41556 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-13 20:14:26,541 INFO    MainThread:41556 [wandb_init.py:_resume_backend():359] resuming backend
+2022-05-13 20:14:40,548 INFO    MainThread:41556 [wandb_init.py:_pause_backend():350] pausing backend
+2022-05-13 20:14:40,548 INFO    MainThread:41556 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-13 20:20:02,200 INFO    MainThread:41556 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 0
+2022-05-13 20:20:02,229 INFO    MainThread:41556 [wandb_run.py:_restore():1838] restore
