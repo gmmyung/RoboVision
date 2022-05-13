@@ -1,0 +1,430 @@
+2022-04-28 15:01:41,815 INFO    MainThread:20831 [internal.py:wandb_internal():90] W&B internal server running at pid: 20831, started at: 2022-04-28 15:01:41.815383
+2022-04-28 15:01:41,816 INFO    WriterThread:20831 [datastore.py:open_for_write():75] open: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/run-rynbpecv.wandb
+2022-04-28 15:01:41,817 DEBUG   SenderThread:20831 [sender.py:send():232] send: header
+2022-04-28 15:01:41,817 DEBUG   SenderThread:20831 [sender.py:send():232] send: run
+2022-04-28 15:01:42,092 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: check_version
+2022-04-28 15:01:42,094 INFO    SenderThread:20831 [dir_watcher.py:__init__():166] watching files in: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files
+2022-04-28 15:01:42,094 INFO    SenderThread:20831 [sender.py:_start_run_threads():811] run started: rynbpecv with start time 1651125701
+2022-04-28 15:01:42,094 DEBUG   SenderThread:20831 [sender.py:send():232] send: summary
+2022-04-28 15:01:42,095 INFO    SenderThread:20831 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 15:01:42,095 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: check_version
+2022-04-28 15:01:42,192 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: run_start
+2022-04-28 15:01:42,195 DEBUG   HandlerThread:20831 [meta.py:__init__():35] meta init
+2022-04-28 15:01:42,195 DEBUG   HandlerThread:20831 [meta.py:__init__():49] meta init done
+2022-04-28 15:01:42,195 DEBUG   HandlerThread:20831 [meta.py:probe():209] probe
+2022-04-28 15:01:42,196 DEBUG   HandlerThread:20831 [git.py:repo():29] git repository is invalid
+2022-04-28 15:01:42,196 DEBUG   HandlerThread:20831 [meta.py:_save_pip():53] save pip
+2022-04-28 15:01:42,196 DEBUG   HandlerThread:20831 [meta.py:_save_pip():67] save pip done
+2022-04-28 15:01:42,196 DEBUG   HandlerThread:20831 [meta.py:_save_conda():74] save conda
+2022-04-28 15:01:43,098 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/wandb-summary.json
+2022-04-28 15:01:43,099 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/conda-environment.yaml
+2022-04-28 15:01:43,099 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/requirements.txt
+2022-04-28 15:01:43,646 DEBUG   HandlerThread:20831 [meta.py:_save_conda():84] save conda done
+2022-04-28 15:01:43,646 DEBUG   HandlerThread:20831 [meta.py:probe():247] probe done
+2022-04-28 15:01:43,649 DEBUG   SenderThread:20831 [sender.py:send():232] send: files
+2022-04-28 15:01:43,649 INFO    SenderThread:20831 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-28 15:01:43,654 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:01:43,654 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:01:43,657 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:01:43,657 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:01:43,787 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 15:01:43,787 INFO    HandlerThread:20831 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 15:01:43,855 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:01:43,855 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:01:43,868 DEBUG   SenderThread:20831 [sender.py:send():232] send: telemetry
+2022-04-28 15:01:43,869 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:01:43,890 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:01:44,100 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/conda-environment.yaml
+2022-04-28 15:01:44,100 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:01:44,100 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/wandb-metadata.json
+2022-04-28 15:01:44,444 INFO    Thread-11 :20831 [upload_job.py:push():137] Uploaded file /var/folders/l4/b_s1jrl92tv6xmkfg_t9_td00000gn/T/tmpjdglhh5cwandb/t7n2nn2z-wandb-metadata.json
+2022-04-28 15:01:46,105 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:01:46,686 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 15:01:46,687 INFO    HandlerThread:20831 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 15:01:46,699 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:01:46,699 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:01:46,793 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:01:48,149 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 15:01:48,149 INFO    HandlerThread:20831 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 15:01:50,120 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:01:54,141 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:01:56,150 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:01:58,876 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:01:58,876 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:02:00,169 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:04,189 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:08,205 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:10,214 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:13,225 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/config.yaml
+2022-04-28 15:02:14,109 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:02:14,109 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:02:14,230 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:17,300 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:02:18,245 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:22,266 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:26,287 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:29,338 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:02:29,339 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:02:30,301 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:32,310 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:36,328 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:40,350 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:44,364 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:44,557 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:02:44,558 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:02:48,383 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:48,456 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:02:52,394 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:56,405 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:58,413 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:02:59,803 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:02:59,803 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:03:02,435 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:08,462 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:10,472 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:14,491 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:15,054 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:03:15,055 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:03:18,505 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:19,620 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:03:22,524 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:26,542 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:30,291 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:03:30,291 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:03:30,556 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:32,564 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:36,575 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:40,594 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:44,608 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:45,548 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:03:45,548 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:03:48,624 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:50,734 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:03:52,641 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:03:56,658 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:00,677 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:00,772 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:04:00,772 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:04:02,687 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:06,696 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:10,714 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:14,728 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:16,043 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:04:16,043 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:04:18,742 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:21,870 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:04:22,764 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:26,781 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:30,806 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:31,265 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:04:31,265 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:04:34,827 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:38,851 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:42,864 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:46,508 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:04:46,509 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:04:46,882 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:50,895 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:53,087 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:04:54,911 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:04:56,271 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:04:56,271 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:04:56,314 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:04:58,925 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:05:01,739 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:05:01,739 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:05:16,956 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:05:16,957 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:05:32,189 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:05:32,190 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:05:47,406 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:05:47,407 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:05:54,764 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 15:05:54,764 INFO    HandlerThread:20831 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 15:05:54,766 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:05:54,766 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:05:54,868 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:05:59,197 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 15:05:59,197 INFO    HandlerThread:20831 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 15:06:01,129 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:02,678 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:06:02,678 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:06:05,143 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:09,162 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:13,178 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:17,196 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:17,916 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:06:17,916 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:06:21,218 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:25,238 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:28,286 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:06:29,253 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:33,138 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:06:33,139 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:06:33,274 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:37,297 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:39,307 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:43,327 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:47,341 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:48,484 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:06:48,484 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:06:51,360 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:53,615 WARNING MainThread:20831 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-04-28 15:06:53,791 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:06:53,792 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:06:53,865 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:06:54,371 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:06:56,301 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 15:06:56,301 INFO    HandlerThread:20831 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 15:06:56,333 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:06:56,333 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:06:56,405 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:06:56,527 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 15:06:56,527 INFO    HandlerThread:20831 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 15:06:58,381 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:01,396 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:03,707 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:07:03,708 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:07:07,422 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:11,442 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:15,463 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:18,481 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:18,952 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:07:18,953 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:07:22,495 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:25,670 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:07:26,510 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:30,526 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:34,384 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:07:34,386 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:07:35,544 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:40,570 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:44,586 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:48,602 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:49,898 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:07:49,898 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:07:52,621 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:56,636 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:07:56,756 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:08:00,654 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:04,670 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:05,126 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:08:05,127 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:08:10,691 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:14,713 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:18,726 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:20,347 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:08:20,351 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:08:24,755 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:27,873 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:08:28,772 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:32,795 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:35,610 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:08:35,610 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:08:38,830 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:42,836 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:46,857 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:50,847 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:08:50,847 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:08:50,877 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:54,891 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:58,903 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:08:59,034 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:09:02,918 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:06,104 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:09:06,104 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:09:06,935 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:10,954 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:14,971 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:18,990 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:21,360 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:09:21,361 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:09:23,011 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:27,030 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:30,169 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:09:31,045 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:35,059 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:36,607 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:09:36,607 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:09:39,075 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:43,089 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:47,102 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:51,114 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:51,834 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:09:51,834 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:09:57,137 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:09:59,147 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:01,252 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:10:03,164 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:07,070 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:10:07,070 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:10:07,185 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:11,197 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:15,209 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:19,225 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:22,310 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:10:22,310 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:10:23,238 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:26,388 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 15:10:26,393 DEBUG   SenderThread:20831 [sender.py:send():232] send: history
+2022-04-28 15:10:26,393 DEBUG   SenderThread:20831 [sender.py:send():232] send: summary
+2022-04-28 15:10:26,397 INFO    SenderThread:20831 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 15:10:26,397 DEBUG   SenderThread:20831 [sender.py:send():232] send: telemetry
+2022-04-28 15:10:27,257 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/wandb-summary.json
+2022-04-28 15:10:27,257 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:31,275 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:32,424 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:10:35,287 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:37,557 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:10:37,557 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:10:39,307 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:43,322 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:47,340 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:47,341 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/config.yaml
+2022-04-28 15:10:51,355 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:52,778 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:10:52,778 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:10:55,372 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:10:59,401 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:03,552 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:11:05,430 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:08,000 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:11:08,001 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:11:09,451 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:13,466 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:17,480 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:21,500 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:24,383 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:11:24,384 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:11:25,512 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:29,530 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:34,710 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:11:35,556 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:39,574 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:39,612 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:11:39,613 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:11:43,589 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:47,607 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:51,616 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:54,877 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:11:54,878 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:11:55,638 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:11:59,657 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:03,672 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:05,894 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:12:07,693 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:10,147 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:12:10,148 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:12:11,713 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:15,730 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:19,751 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:23,774 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:25,767 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:12:25,768 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:12:27,788 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:31,812 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:35,826 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:37,058 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:12:39,863 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:40,987 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:12:40,988 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:12:43,864 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:47,884 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:51,900 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:55,917 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:12:56,232 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:12:56,232 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:12:59,934 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:03,949 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:07,969 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:08,209 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:13:11,456 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:13:11,457 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:13:11,988 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:16,006 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:20,023 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:24,042 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:26,691 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:13:26,692 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:13:28,059 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:32,080 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:36,100 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:39,313 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:13:40,123 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:41,975 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:13:41,976 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:13:44,136 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:48,152 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:51,112 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 15:13:51,113 DEBUG   SenderThread:20831 [sender.py:send():232] send: history
+2022-04-28 15:13:51,113 DEBUG   SenderThread:20831 [sender.py:send():232] send: summary
+2022-04-28 15:13:51,114 INFO    SenderThread:20831 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 15:13:51,167 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/wandb-summary.json
+2022-04-28 15:13:52,172 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:13:57,275 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:13:57,279 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:13:58,205 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:02,224 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:06,244 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:10,260 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:10,420 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:14:12,500 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:14:12,501 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:14:14,270 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:18,290 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:22,305 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:26,316 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:27,735 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:14:27,736 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:14:30,333 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:34,349 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:38,370 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:41,532 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:14:42,386 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:42,983 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:14:42,983 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:14:46,413 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:50,429 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:54,443 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:14:58,249 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:14:58,250 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:14:58,460 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:04,487 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:08,506 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:12,527 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:12,713 DEBUG   SenderThread:20831 [sender.py:send():232] send: stats
+2022-04-28 15:15:13,471 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:15:13,472 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:15:16,547 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:20,564 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:24,585 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:28,605 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:28,703 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 15:15:28,703 DEBUG   SenderThread:20831 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 15:15:32,625 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:36,645 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:40,659 INFO    Thread-7  :20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:43,264 WARNING MainThread:20831 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-04-28 15:15:43,265 ERROR   MainThread:20831 [internal.py:wandb_internal():156] Internal process interrupted.
+2022-04-28 15:15:43,367 DEBUG   HandlerThread:20831 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 15:15:43,367 INFO    HandlerThread:20831 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 15:15:43,415 INFO    HandlerThread:20831 [handler.py:finish():806] shutting down handler
+2022-04-28 15:15:44,073 INFO    WriterThread:20831 [datastore.py:close():279] close: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/run-rynbpecv.wandb
+2022-04-28 15:15:44,077 INFO    SenderThread:20831 [sender.py:finish():1106] shutting down sender
+2022-04-28 15:15:44,077 INFO    SenderThread:20831 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-04-28 15:15:44,672 INFO    SenderThread:20831 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:44,672 INFO    SenderThread:20831 [dir_watcher.py:finish():309] scan: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files
+2022-04-28 15:15:44,672 INFO    SenderThread:20831 [dir_watcher.py:finish():323] scan save: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/requirements.txt requirements.txt
+2022-04-28 15:15:44,673 INFO    SenderThread:20831 [dir_watcher.py:finish():323] scan save: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log output.log
+2022-04-28 15:15:44,674 INFO    SenderThread:20831 [dir_watcher.py:finish():323] scan save: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/config.yaml config.yaml
+2022-04-28 15:15:44,680 INFO    SenderThread:20831 [dir_watcher.py:finish():323] scan save: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/wandb-summary.json wandb-summary.json
+2022-04-28 15:15:44,680 INFO    SenderThread:20831 [dir_watcher.py:finish():323] scan save: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/conda-environment.yaml conda-environment.yaml
+2022-04-28 15:15:44,683 INFO    SenderThread:20831 [dir_watcher.py:finish():323] scan save: /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/wandb-metadata.json wandb-metadata.json
+2022-04-28 15:15:44,683 INFO    SenderThread:20831 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-28 15:15:44,683 INFO    SenderThread:20831 [file_pusher.py:join():150] waiting for file pusher
+2022-04-28 15:15:45,423 INFO    Thread-23 :20831 [upload_job.py:push():137] Uploaded file /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/conda-environment.yaml
+2022-04-28 15:15:45,444 INFO    Thread-21 :20831 [upload_job.py:push():137] Uploaded file /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/config.yaml
+2022-04-28 15:15:45,448 INFO    Thread-19 :20831 [upload_job.py:push():137] Uploaded file /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/requirements.txt
+2022-04-28 15:15:45,460 INFO    Thread-20 :20831 [upload_job.py:push():137] Uploaded file /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/output.log
+2022-04-28 15:15:45,509 INFO    Thread-22 :20831 [upload_job.py:push():137] Uploaded file /Users/gmmyung/Developer/RoboVision/wandb/run-20220428_150141-rynbpecv/files/wandb-summary.json
+2022-04-28 15:15:47,042 INFO    MainThread:20831 [internal.py:handle_exit():80] Internal process exited
